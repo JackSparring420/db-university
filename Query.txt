@@ -26,7 +26,7 @@
 	SELECT `name`, `course_id`, `date` 
 	FROM `exams` 
 	JOIN `courses` 
-	WHERE `date` LIKE '2020-06-01' AND '2020-07-31'
+	WHERE `date` BEETWEN'2020-06-01' AND '2020-07-31'
 
 7. Qual è il numero totale degli studenti iscritti?
 	SELECT COUNT(`id`) 
