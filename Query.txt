@@ -20,7 +20,7 @@
 5. Selezionare tutti gli insegnanti che hanno un numero di telefono (cercare operatore NULL/NOT NULL)
 	SELECT `name`, `surname`, `phone`
 	FROM `teachers`
-	WHERE `phone` IS NULL
+	WHERE `phone` IS NOT NULL
 
 6. Selezionare tutti gli appelli d'esame dei mesi di giugno e luglio 2020
 	SELECT `name`, `course_id`, `date` 
